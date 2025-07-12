@@ -23,32 +23,6 @@ A comprehensive inventory and order management system built with Spring Boot. Ma
   - Spring Web
 - **Architecture**: MVC Pattern with Service Layer
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Java 17+
-- Maven 3.6+
-- (Optional) PostgreSQL 15+
-
-### Installation
-```bash
-# Clone repository
-git clone https://github.com/Elham7899/Store.git
-
-# Navigate to project
-cd Store
-
-# Build and run
-mvn spring-boot:run
-Access H2 Database Console
-URL: http://localhost:8080/h2-console
-
-JDBC URL: jdbc:h2:mem:testdb
-
-Username: (leave empty)
-
-Password: (leave empty)
-
 ## 📚 API Documentation
 
 Product Endpoints
@@ -114,3 +88,29 @@ Create your feature branch (git checkout -b feature/amazing-feature)
 Commit your changes (git commit -m 'Add some amazing feature')
 Push to the branch (git push origin feature/amazing-feature)
 Open a pull request
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Java 17+
+- Maven 3.6+
+- (Optional) PostgreSQL 15+
+
+### Installation
+```bash
+# Clone repository
+git clone https://github.com/Elham7899/Store.git
+
+# Navigate to project
+cd Store
+
+# Build and run
+mvn spring-boot:run
+Access H2 Database Console
+URL: http://localhost:8080/h2-console
+
+JDBC URL: jdbc:h2:mem:testdb
+
+Username: ("")
+Password: ("")
